@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glowStrategies" cx="25%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSolutions" cx="75%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dualAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="50%" stop-color="#0047AB"/>
+      <stop offset="100%" stop-color="#17C3E6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Carbon Background -->
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect width="1200" height="630" fill="url(#glowStrategies)"/>
+  <rect width="1200" height="630" fill="url(#glowSolutions)"/>
+
+  <!-- Editorial Grid Hairlines (June 15 / Over J Style) -->
+  <line x1="80" y1="0" x2="80" y2="630" stroke="#27272A" stroke-width="1"/>
+  <line x1="1120" y1="0" x2="1120" y2="630" stroke="#27272A" stroke-width="1"/>
+  <line x1="0" y1="88" x2="1200" y2="88" stroke="#27272A" stroke-width="1"/>
+  <line x1="0" y1="542" x2="1200" y2="542" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="80" y="88" width="1040" height="3" fill="url(#dualAccent)"/>
+
+  <!-- Official SOHO | GROUP Hexagonal Emblem (White Plate) -->
+  <rect x="130" y="140" width="220" height="220" rx="20" fill="#FFFFFF" stroke="#27272A" stroke-width="2"/>
+  <g transform="translate(130, 140) scale(0.44)">
+    <polyline points="106,170 106,137 250,54 394,137 394,170" fill="none" stroke="#0047AB" stroke-width="8" stroke-miterlimit="10"/>
+    <polyline points="106,268 106,301 250,384 394,301 394,268" fill="none" stroke="#0047AB" stroke-width="8" stroke-miterlimit="10"/>
+    <polygon points="136,148 250,80 372,150 372,193 250,123 172,169" fill="#000000"/>
+    <polygon points="364,290 250,358 128,288 128,245 250,315 328,269" fill="#53626A"/>
+    <polygon points="180,183 250,142 372,212 372,284 334,262 332,232 250,184 202,212 180,199" fill="#17C3E6"/>
+    <polygon points="320,255 250,296 128,226 128,154 166,176 168,206 250,254 298,226 320,239" fill="#D9231B"/>
+    <polygon points="250,191 274,219 250,247 226,219" fill="#FF9947"/>
+    <text x="163" y="445" fill="#53626A" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="7" text-anchor="middle">SOHO</text>
+    <line x1="250" y1="403" x2="250" y2="452" stroke="#0047AB" stroke-width="6.5"/>
+    <text x="348" y="445" fill="#53626A" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="2" text-anchor="middle">GROUP</text>
+  </g>
+
+  <!-- Right Editorial Column -->
+  <text x="395" y="168" fill="#A1A1AA" font-family="monospace" font-size="14" letter-spacing="4">01 // HOLDING EMPRESARIAL DUAL</text>
+  <text x="395" y="235" fill="#FFFFFF" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="54" font-weight="800" letter-spacing="6">SOHO GROUP</text>
+  <text x="395" y="285" fill="#FFFFFF" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="22" font-weight="600">Sinergia, disrupción y resultados:</text>
+  <text x="395" y="318" fill="#A1A1AA" font-family="'Inter', sans-serif" font-size="20">El equilibrio perfecto entre crecimiento y blindaje corporativo.</text>
+
+  <!-- Dual Gateway Division Badges -->
+  <rect x="130" y="405" width="450" height="95" rx="14" fill="#FFFFFF"/>
+  <circle cx="165" cy="442" r="6" fill="#D9231B"/>
+  <text x="184" y="448" fill="#0A0A0A" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" letter-spacing="2">SOHO | STRATEGIES</text>
+  <text x="165" y="476" fill="#53626A" font-family="'Inter', sans-serif" font-size="14" font-weight="600">Crecimiento &amp; Disrupción · www.strategies.sohog.org</text>
+
+  <rect x="610" y="405" width="460" height="95" rx="14" fill="#FFFFFF"/>
+  <circle cx="645" cy="442" r="6" fill="#0047AB"/>
+  <text x="664" y="448" fill="#0A0A0A" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" letter-spacing="2">SOHO | SOLUTIONS</text>
+  <text x="645" y="476" fill="#53626A" font-family="'Inter', sans-serif" font-size="14" font-weight="600">Protección &amp; Blindaje · www.solutions.sohog.org</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#FFFFFF"/>
+
+  <!-- Top Chevron (Black) -->
+  <polygon points="112,130 250,49 396,133 396,185 250,101 156,156" fill="#000000"/>
+
+  <!-- Bottom Chevron (Black) -->
+  <polygon points="388,322 250,403 104,319 104,267 250,351 344,296" fill="#000000"/>
+
+  <!-- Upper-Right S-Arm (Red) -->
+  <polygon points="166,172 250,123 396,207 396,294 350,267 348,231 250,174 192,207 166,192" fill="#D9231B"/>
+
+  <!-- Lower-Left S-Arm (Red) -->
+  <polygon points="334,280 250,329 104,245 104,158 150,185 152,221 250,278 308,245 334,260" fill="#D9231B"/>
+
+  <!-- Center Diamond (Orange) -->
+  <polygon points="250,196 278,226 250,256 222,226" fill="#FF9947"/>
+
+  <!-- Typography: STRATEGIES -->
+  <text x="253" y="446" fill="#53626A" stroke="#53626A" stroke-width="2" font-family="'Avenir Next', 'Helvetica Neue', Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="6" text-anchor="middle">STRATEGIES</text>
+</svg>
